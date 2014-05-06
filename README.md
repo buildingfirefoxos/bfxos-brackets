@@ -1,6 +1,6 @@
-## DevDocs Viewer
+## Building Firefox OS extension for Brackets
 
-This is a [Brackets](http://brackets.io) extension for searching and viewing [buildingfirefoxos.com](http://buildingfirefoxos.com) content.
+This is a [Brackets](http://brackets.io) extension for viewing [buildingfirefoxos.com](http://buildingfirefoxos.com) content.
 
 ## Installation
 
@@ -16,4 +16,4 @@ Click the "BF" icon in the toolbar to open and close the viewer panel. The panel
 
 ## Credits
 
-Thanks to [Glenn Ruehle](http://github.com/gruehle) for his work in the DevDocs extension.
+Thanks to [Glenn Ruehle](http://github.com/gruehle) for his work in the [DevDocs](https://github.com/gruehle/dev-docs-viewer) extension.
