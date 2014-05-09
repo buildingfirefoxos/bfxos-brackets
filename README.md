@@ -2,7 +2,8 @@
 
 This is a [Brackets](http://brackets.io) extension for viewing [buildingfirefoxos.com](http://buildingfirefoxos.com) content.
 
-![alt tag](https://raw.githubusercontent.com/buildingfirefoxos/bfxos-brackets/media/images/bfxos-brackets.png)
+![alt tag](https://raw.githubusercontent.com/buildingfirefoxos/bfxos-brackets/master/media/bfxos-brackets.png)
+
 
 ## Installation
 
