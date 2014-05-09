@@ -1,8 +1,0 @@
-/* Toolbar icon */
-#bfxos-icon {
-    background: url(bfxos.svg) no-repeat;
-}
-
-#bfxos-icon.active {
-    background-position: 0 -24px !important;
-}
