@@ -16,4 +16,5 @@ Click the "BF" icon in the toolbar to open and close the viewer panel. The panel
 
 ## Credits
 
-Thanks to [Glenn Ruehle](http://github.com/gruehle) for his work in the [DevDocs](https://github.com/gruehle/dev-docs-viewer) extension.
+* [Glenn Ruehle](http://github.com/gruehle) for his work in the [DevDocs](https://github.com/gruehle/dev-docs-viewer) extension.
+* [Joan Leon](https://twitter.com/nucliweb) for the idea and the copy/paste fix
