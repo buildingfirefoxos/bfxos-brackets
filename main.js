@@ -48,8 +48,7 @@ define(function (require, exports, module) {
         $iframe;
 
     // Other vars
-    var query,
-        panel,
+    var panel,
         visible = false,
         realVisibility = false;
 
@@ -63,12 +62,27 @@ define(function (require, exports, module) {
     function _loadDocumentation() {
         var url = "http://buildingfirefoxos.com/building-blocks/";
 
-        if (query) {
-            url += "#q=" + query;
-        }
 
         $iframe.attr("src", url);
         $iframe.load(function () {
+            var elDiv = document.createElement('div');
+            var elInput = document.createElement('input');
+
+            $(elInput).attr('id','fakeInput');
+            $(elDiv).css({
+                'width'     :'0',
+                'height'    :'0',
+                'overflow'  :'hidden',
+                'position'  : 'fixed',
+                'top'       : '50%'
+            });
+            $(elDiv).append(elInput);
+
+            $iframe.contents().find("body").append(elDiv);
+            $iframe.contents().find("html").mousedown(function(){
+                $(elInput).focus();
+            });
+          
             $iframe.contents().get(0).addEventListener("click", function (e) {
                 if (e.target && e.target.href) {
                     if (e.target.href.indexOf("http://buildingfirefoxos.com") !== 0) {
